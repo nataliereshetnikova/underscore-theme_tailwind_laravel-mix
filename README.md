@@ -1,5 +1,5 @@
 # Install Wordpress to XAMPP folder
-[full YouTube guide](https://www.youtube.com/watch?time_continue=604&v=CTNFZRdDotM&feature=emb_title)
+[YouTube tutorial](https://www.youtube.com/watch?time_continue=604&v=CTNFZRdDotM&feature=emb_title)
 - start Apache and MySql in XAMPP Control Panel
 - dowload wordpress zip from [wordpress.org](https://wordpress.org/download/)
 - extract in xampp/htdocs folder and rename to your website name
@@ -14,6 +14,7 @@
 - activate theme in Appearance/Themes menu
 
 # Install Tailwind CSS within Underscore
+[YouTube tutorial](https://www.youtube.com/watch?v=TWzp_gDh5EU&t=723s)
 - open ```xampp/htdocs/website-name/wp-content/themes/theme-name``` in code editor
 - run in terminal ```npm i --save-dev tailwindcss postcss-cli autoprefixer laravel-mix cross-env  ```
 - run ```npx tailwind init```
@@ -72,6 +73,6 @@ function ottawa_train_yards_v_1_scripts() {
 	}
 }
 ```
-- save old styles from ```style.css``` to ```old-styles.css``` to refer to after if needed
+- delete styles from ```style.css```
 - run ```npm run dev``` to rebuild
 - create ```.gitignore``` file
